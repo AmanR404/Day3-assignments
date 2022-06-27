@@ -14,7 +14,5 @@ public class Linecomparison {
 
         System.out.println("Line 1 Length : "+lineLength1);
         System.out.println("Line 2 Length : "+lineLength2);
-
-        System.out.println(lineLength1.equals(lineLength2));
     }
 }
