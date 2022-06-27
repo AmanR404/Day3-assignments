@@ -16,5 +16,11 @@ public class LineComparisonComputation {
             System.out.println("Line 2 Length : "+lineLength2);
 
             System.out.println(lineLength1.equals(lineLength2));
+//            Checking Less than
+            boolean result = lineLength1 > lineLength2;
+            System.out.println("Linelenght1 is smaller than Linelength2 So : " + result);
+//            Checking greater than
+            boolean result1 = lineLength2 > lineLength1;
+            System.out.println("Linelength2 is greater than Linelength1 So : " + result1);
         }
     }
